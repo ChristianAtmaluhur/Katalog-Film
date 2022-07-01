@@ -41,6 +41,29 @@ textarea:focus, input:focus{
     color: rgba(221, 221, 221, 0.8);
 }
 
+.img {
+    background: #ddd;
+    border-radius: 15px;
+}
+
+.card>h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+main>h1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-container {
+    display: grid;
+}
+
+.card-container h1 {
+    font-weight: 500;
+}
+
 @media (max-width: 35em) {
     header {
         display: flex;
@@ -85,6 +108,36 @@ textarea:focus, input:focus{
 
     .dropdown-content>li>.active {
         color: #fff;
+    }
+
+    main {
+        margin-top: 30px;
+        padding-inline: 20px;
+    }
+
+    main>h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .card-container>.card {
+        margin-bottom: 10px;
+    }
+
+    .card-container .img {
+        width: 100%;
+        background: #ddd;
+        height: 45vw;
+    }
+
+    .card-container h1 {
+        font-size: 20px;
+        margin-top: 15px;
     }
 }
 
@@ -162,6 +215,36 @@ textarea:focus, input:focus{
     .search-container>input {
         font-size: 14px;
     }
+
+    main {
+        margin-top: 35px;
+        padding-inline: 40px;
+    }
+
+    main>h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .card-container>.card {
+        margin-bottom: 10px;
+    }
+
+    .card-container .img {
+        width: 100%;
+        background: #ddd;
+        height: 40vw;
+    }
+
+    .card-container h1 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 45em) {
@@ -237,5 +320,35 @@ textarea:focus, input:focus{
 
     .search-container>input {
         font-size: 16px;
+    }
+
+    main {
+        margin-top: 50px;
+        padding-inline: 60px;
+    }
+
+    main>h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .card-container>.card {
+        margin-bottom: 10px;
+    }
+
+    .card-container .img {
+        width: 100%;
+        background: #ddd;
+        height: 30vw;
+    }
+
+    .card-container h1 {
+        margin-top: 15px;
+        font-size: 20px;
     }
 }
