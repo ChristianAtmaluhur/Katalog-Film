@@ -41,6 +41,10 @@ textarea:focus, input:focus{
     color: rgba(221, 221, 221, 0.8);
 }
 
+.card {
+    cursor: pointer;
+}
+
 .img {
     background: #ddd;
     border-radius: 15px;
@@ -62,6 +66,10 @@ main>h1 {
 
 .card-container h1 {
     font-weight: 500;
+}
+
+.card:hover .title {
+    color: #90CEA1;
 }
 
 @media (max-width: 35em) {
@@ -111,8 +119,7 @@ main>h1 {
     }
 
     main {
-        margin-top: 30px;
-        padding-inline: 20px;
+        padding: 30px 20px 30px;
     }
 
     main>h1 {
@@ -217,8 +224,7 @@ main>h1 {
     }
 
     main {
-        margin-top: 35px;
-        padding-inline: 40px;
+        padding: 35px 40px 35px;
     }
 
     main>h1 {
@@ -323,8 +329,7 @@ main>h1 {
     }
 
     main {
-        margin-top: 50px;
-        padding-inline: 60px;
+        padding: 50px 60px 50px;
     }
 
     main>h1 {
